@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title Area -->
+    <title>BLOG</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Main container for the cards -->
+    <main class="w-full md:w-11/12 mx-auto mt-8 rounded flex flex-col md:flex-row justify-between pb-8">
+        <!-- Card 1 -->
+        <div class="bg-slate-200 text-center md:text-left p-4 border rounded cursor-pointer transform transition-transform hover:scale-105 hover:bg-rose-400 hover:text-white">
+            <!-- Card 1 Title -->
+            <h1 class="text-sm md:text-sm font-bold text-slate-700">1. What is DOM and what is the purpose of DOM?</h1>
+            <!-- Card 1 Content -->
+            <p class="text-sm mt-2 md:text-sm font-bold text-slate-600">Ans : DOM stands for Document Object Model.
+                <br>
+                It is used to create and transform static websites designed with HTML and CSS into dynamic and interactive web pages.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-sky-100 text-center md:text-left p-4 border rounded cursor-pointer transform transition-transform hover:scale-105 hover:bg-rose-400 hover:text-white">
+            <!-- Card 2 Title -->
+            <h1 class="text-sm md:text-sm font-bold text-slate-700">2. How will you select HTML elements using DOM? Name the DOM methods.</h1>
+            <!-- Card 2 Content -->
+            <p class="text-sm mt-2 md:text-sm font-bold text-slate-600">
+                getElementById(): To select an element by its ID attribute.
+                <br>getElementsByClassName(): To select all elements with the specified class name.
+                <br>getElementsByTagName(): To select all elements with the specified tag name.
+                <br>querySelector(): To select the first element that matches the specified CSS selector.
+                <br>querySelectorAll(): To select all elements that match the specified CSS selector.
+            </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-slate-200 text-center md:text-left p-4 border rounded cursor-pointer transform transition-transform hover:scale-105 hover:bg-rose-400 hover:text-white">
+            <!-- Card 3 Title -->
+            <h1 class="text-sm md:text-sm font-bold text-slate-700">3. What is event bubble?</h1>
+            <!-- Card 3 Content -->
+            <p class="text-sm mt-2 md:text-sm font-bold text-slate-600">
+                Event bubbling is a way events work on a web page.
+                <br>It means when something happens (like a click), 
+                <br>the web page checks how to deal with it starting from where it happened and then moving up to the main part of the page.
+            </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-sky-100 text-center md:text-left p-4 border rounded cursor-pointer transform transition-transform hover:scale-105 hover:bg-rose-400 hover:text-white">
+            <!-- Card 4 Title -->
+            <h1 class="text-sm md:text-sm font-bold text-slate-700">4. What is a callback function and why will you use it?</h1>
+            <!-- Card 4 Content -->
+            <p class="text-sm mt-2 md:text-sm font-bold text-slate-600">
+                A callback function is a function that you pass as an ingredient to another function. This other function, like a chef, uses this ingredient (the callback) at a specific point while it's doing its work.
+                <br>
+                <br>
+                Callback functions are quite handy in two main situations:
+                <br>
+                <br>Asynchronous Operations: Imagine you're cooking, and one step requires the rice to be ready before you can stir-fry it. So, you ask someone to keep an eye on the rice and tell you when it's done. That someone is like your callback function. In coding, this is used for tasks that take some time, like waiting for data from the internet or a file.
+                <br>
+                <br>Event Handling: Consider a button you click. You want something to happen when you click it, like music starting to play. The button can't directly control the music, but it can say, "Hey, when you click me, tell the music player to start playing." That message is a callback function.
+                <br>
+                <br>
+                In simpler terms, callbacks are like special instructions you give to a function, telling it what to do when a specific condition is met, like "call this function when the rice is ready" or "play music when the button is clicked."
+            </p>
+        </div>
+    </main>
+
+</body>
+</html>
